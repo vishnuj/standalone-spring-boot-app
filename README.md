@@ -1,2 +1,2 @@
 # Standalone Spring Boot Application
-xxx
+Template for having a standalone Spring Boot application without a web container.
