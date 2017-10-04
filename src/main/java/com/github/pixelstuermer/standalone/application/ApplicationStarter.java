@@ -10,7 +10,6 @@ import org.springframework.context.annotation.ComponentScan;
 @ComponentScan( basePackages = "com.github.pixelstuermer.standalone" )
 public class ApplicationStarter {
 
-   // TODO disable logging
    // TODO add tests
    // TODO delete other workspace and project
 
