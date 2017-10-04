@@ -7,7 +7,7 @@ import org.springframework.context.annotation.ComponentScan;
 
 @SpringBootApplication
 @EnableAutoConfiguration
-@ComponentScan( basePackages = "com.github.pixelstuermer.standalone" )
+@ComponentScan( basePackages = "${base.packages}" )
 public class ApplicationStarter {
 
    // TODO add tests
