@@ -12,6 +12,6 @@ deploy:
   provider: heroku
   on: master
   app:
-    master: test-pxlphil
+    master: $HEROKU_APP_NAME
   api_key:
     master: $HEROKU_API_KEY
